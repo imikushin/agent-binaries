@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM armhf/alpine:3.3
 WORKDIR /source
 COPY ./scripts/bootstrap ./scripts/bootstrap
 RUN ./scripts/bootstrap
